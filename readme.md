@@ -1,8 +1,9 @@
-Repository associated with the publication:
+Repository associated with the AISTAT 2022 publication:
 
  Adaptation of the Independent Metropolis-Hastings Sampler with Normalizing Flow Proposals
  James Brofos, Marylou Gabrie, Marcus A. Brubaker and Roy Lederman 
  Yale University, New York University, Flatiron Institute, York University, and  Vector Institute 
+ https://arxiv.org/abs/2110.13216 
 
 
 The back-bone of the code is contained in the ``adaflonaco`` python package. 
