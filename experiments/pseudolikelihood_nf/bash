@@ -1,0 +1,5 @@
+# test
+python3 run_training.py -N 25 --dim-phys 1 -pt coupled -a 0.04 -b 0 -beta 20 -d 2 -samp stochmetromalangevin -nw 100 -dt 1e-4 -rposi 0.5 -lr 1e-3 -niter 10 -bs 100
+
+# experiments
+python3 run_training.py -N 100 --dim-phys 1 -a 0.1 -b 0 -beta 20 -d 5 -hdm 100  -mt half --hidden-bias -samp stochmetromalangevin -nw 100 -dt 2e-5  -rposi 0.2 -lr 1e-3 --schedule -niter 20000 -bs 1000
